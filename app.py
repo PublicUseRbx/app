@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 from PIL import Image
 import requests
 from io import BytesIO
-import re
 
 app = Flask(__name__)
 
